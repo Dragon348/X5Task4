@@ -25,7 +25,7 @@ public abstract class Car {
         System.out.println("Поворот налево");
     }
 
-    public void printInfo(){
+    public void printInfo() {
         System.out.println("Марка: " + this.mark);
         System.out.println("Класс авто:" + this.carClass);
         System.out.println("Вес авто:" + this.weight);
