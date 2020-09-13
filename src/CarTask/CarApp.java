@@ -10,7 +10,7 @@ public class CarApp {
         cars[1] = new SportCar("Тесла", "S", 30.5, engine1, 320);
         cars[2] = new SportCar("Маруся", "S", 30.5, engine1, 280);
 
-        for(Car car:cars){
+        for (Car car : cars) {
             car.printInfo();
             car.start();
             car.turnLeft();
